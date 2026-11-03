@@ -1,10 +1,17 @@
-Patent:  Bilbo Baggins
-DOB: 2890-09-22
-MRN:  123456
-Allergies: None
-Medications: Herbal tea as needed for relaxation
-Reason for visit: Routine check-up before next adventure
-Vitals: BP 118/76,HR 68 bpm, temp 98.4F
-Assessement:Excellent health for a hobbit of his age.
-Plan: Maintain balanced diet, regular walks,and minimal dragon exposure.
-done ,
+{
+ "patient":{
+   "name":"Bilbo Baggins",
+   "dob": "2890-09-22",
+   "mrn": "123456"
+},
+"allergies": "None",
+"medications":Herbal tea as needed for relaxation",
+"reason _visit": "Routine check-up before next adventure",
+"vitals":{
+"blood _pressure":"118/76",
+"Heart_rate": "68 bpm",
+"temperature": "98.4 F"
+},
+"ASSESSMENT": "Excellent health for a hobbit of his age.",
+"plan": "Maintain balanced diet, regular walks,and minimal dragon exposure."
+}
