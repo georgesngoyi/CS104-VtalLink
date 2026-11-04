@@ -1,4 +1,18 @@
-Name,DOB,MRN,Allergies,Medications,Reason for Visit,Bp,HR,Temp,Assessment,plan
-Bilbo Baggins,2890-09-123456,none,Herbal tea as needed for relaxation, Routine check-up b
-efore next adventure,118/76 bpm ,98.f,Excellent health fore a hobbit of his age.,Maintai
-n balanced diet,regular walks,minimal dragon exposure
+{
+ "patient":{
+   "name":"Bilbo Baggins",
+   "dob": "2890-09-22",
+   "mrn": "123456"
+},
+"allergies": "None",
+"medications":Herbal tea as needed for relaxation",
+"reason _visit": "Routine check-up before next adventure",
+"vitals":{
+"blood _pressure":"118/76",
+"Heart_rate": "68 bpm",
+"temperature": "98.4 F"
+},
+"ASSESSMENT": "Excellent health for a hobbit of his age.",
+"plan": "Maintain balanced diet, regular walks,and minimal dragon exposure."
+}
+
